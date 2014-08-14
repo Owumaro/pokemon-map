@@ -1,5 +1,4 @@
-Pokémon-Map
-===========
+![alt tag](https://raw.githubusercontent.com/Owumaro/pokemon-map/master/img/logo.png)
 
 ## Introduction
 
