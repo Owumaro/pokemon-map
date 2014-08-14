@@ -1,0 +1,125 @@
+header {
+    text-align:center;
+    background-color:#000000;
+    height:70px;
+    box-sizing:border-box;
+    border-bottom:2px solid #275278;
+}
+
+/* Character selection */
+.tab-content {
+    padding:5px;
+}
+
+.character-list {
+    padding:0;
+    margin:0;
+    font-size:0;
+}
+
+.character-thumb {
+    position:relative;
+    width:48px;
+    height:48px;
+    display:inline-block;
+    margin:5px;
+    cursor:pointer;
+    background-color:#eeeeee;
+}
+
+.character-thumb span {
+    position:absolute;
+    margin-left:30px;
+    margin-top:30px;
+    font-size:14px;
+    color:#3c763d;
+}
+
+.character-thumb:hover {
+    background-color:#ffffff;
+}
+
+/* Game */
+.map {
+    display:block;
+    position:absolute;
+    margin:0;
+}
+
+#ui {
+    margin-top:70px;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+#map-title {
+    white-space:nowrap;
+    right:10px;
+    top:10px;
+}
+
+#menu {
+    left:10px;
+    top:10px;
+    width:200px;
+}
+
+#playerlist {
+    left:10px;
+    bottom:10px;
+    width:200px;
+    height:200px;
+}
+
+#chat {
+    left:220px;
+    bottom:10px;
+    height:200px;
+    right:50%;
+}
+
+#playerlist .panel-body {
+    height:160px;
+}
+
+#chat .panel-body {
+    height:105px;
+}
+
+#playerlist .panel-body, #chat .panel-body {
+    position:relative;
+    overflow:hidden;
+    padding:0;
+}
+
+#playerlist .panel-body > ul, #chat .panel-body > ul {
+    list-style:none;
+    margin:0;
+    padding:5px 10px;
+    white-space:nowrap;
+}
+
+#menu .panel-body {
+    padding:0;
+}
+
+#menu ul {
+    list-style:none;
+    margin:0;
+    padding:5px 10px;
+    white-space:nowrap;
+}
+
+#menu ul li {
+    padding: 2px 0;
+}
+
+#menu a {
+    cursor:pointer;
+}
+
+.slider {
+    width:150px !important;
+}

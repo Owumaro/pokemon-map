@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Pokémon Live</title>
+        <link rel="stylesheet" type="text/css" href="bower_components/perfect-scrollbar/min/perfect-scrollbar-0.4.8.min.css" />
+        <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="bower_components/seiyria-bootstrap-slider/dist/css/bootstrap-slider.min.css" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+
+    <body>
+
+        <header>
+            <img src="img/logo.png" alt="Pokémon Live" />
+        </header>
+
+        <canvas class="map" id="game">Votre navigateur ne supporte pas le canvas HTML5.</canvas>
+
+        <div class="map" id="tags"></div>
+
+        <div class="map" id="ui">
+
+            <h3 class="map ui well" id="map-title"></h3>
+
+            <div class="map ui panel panel-default" id="menu">
+                <div class="panel-heading"><h3 class="panel-title">Menu</h3></div>
+                <div class="panel-body">
+                    <ul>
+                        <li><a href="/"><span class="glyphicon glyphicon-home"></span> Homepage</a></li>
+                        <li><a><span class="glyphicon glyphicon-search"></span> <div id="zoom"></div></a></li>
+                        <li><a href="logout"><span class="glyphicon glyphicon-log-out"></span> Log out</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="map ui panel panel-default" id="playerlist">
+                <div class="panel-heading"><h3 class="panel-title">Players <span class="badge"></span></h3></div>
+                <div class="panel-body">
+                    <ul>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="map ui panel panel-default" id="chat">
+                <div class="panel-heading"><h3 class="panel-title">Chat</h3></div>
+                <div class="panel-body">
+                    <ul>
+                    </ul>
+                </div>
+                <div class="panel-footer"><input type="text" class="form-control" id="message" /></div>
+            </div>
+
+        </div>
+
+        <script src="bower_components/jquery/jquery.min.js"></script>
+        <script src="bower_components/perfect-scrollbar/min/perfect-scrollbar-0.4.8.with-mousewheel.min.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="bower_components/seiyria-bootstrap-slider/dist/bootstrap-slider.min.js"></script>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="mapengine.js"></script>
+        <script src="playerlist.js"></script>
+        <script>
+            var username = '<%= username %>';
+            var character = '<%= character %>';
+        </script>
+        <script src="game.js"></script>
+    </body>
+
+</html>

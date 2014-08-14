@@ -1,0 +1,35 @@
+{
+    "name": "Bourg Palette",
+    "file": "img/map.png",
+    "start": { "x": 6, "y": 9 },
+    "walkable":
+        [false, false, false, false, false, false, false, false, false, false, false, false,  true,  true, false, false, false, false, false, false, false, false, false, false,
+         false, false, false, false, false, false, false, false, false, false, false, false,  true,  true, false, false, false, false, false, false, false, false, false, false,
+         false, false, false, false, false, false, false, false, false, false, false, false,  true,  true, false, false, false, false, false, false, false, false, false, false,
+         false, false,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true, false, false,
+         false, false,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true, false, false,
+         false, false,  true,  true,  true, false, false, false, false, false,  true,  true,  true,  true, false, false, false, false, false,  true,  true,  true, false, false,
+         false, false,  true,  true,  true, false, false, false, false, false,  true,  true,  true,  true, false, false, false, false, false,  true,  true,  true, false, false,
+         false, false,  true,  true,  true, false, false, false, false, false,  true,  true,  true,  true, false, false, false, false, false,  true,  true,  true, false, false,
+         false, false,  true,  true, false, false, false, false, false, false,  true,  true,  true, false, false, false, false, false, false,  true,  true,  true, false, false,
+         false, false,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true, false, false,
+         false, false,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true, false, false,
+         false, false,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true, false, false, false, false, false, false, false,  true,  true, false, false,
+         false, false,  true,  true,  true, false, false, false, false, false,  true,  true,  true, false, false, false, false, false, false, false,  true,  true, false, false,
+         false, false,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true, false, false, false, false, false, false, false,  true,  true, false, false,
+         false, false,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true, false, false, false, false, false, false, false,  true,  true, false, false,
+         false, false,  true,  true,  true, false,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true, false, false,
+         false, false,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true, false, false,
+         false, false,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true, false, false, false, false, false, false,  true,  true,  true, false, false,
+         false, false,  true,  true,  true,  true,  true, false, false, false, false,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true, false, false,
+         false, false,  true,  true,  true,  true,  true, false, false, false, false,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true, false, false,
+         false, false,  true,  true,  true,  true,  true, false, false, false, false,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true, false, false,
+         false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false],
+    "borders": [
+        { "x": 12, "y": -1, "map": "frlg_route1", "start": { "x": 12, "y": 38 } },
+        { "x": 13, "y": -1, "map": "frlg_route1", "start": { "x": 13, "y": 38 } },
+        { "x": 6, "y": 8, "map": "frlg_bourgpalette_house1_rdc", "start": { "x": 3, "y": 8 } },
+        { "x": 15, "y": 8, "map": "frlg_bourgpalette_house2", "start": { "x": 4, "y": 8 } },
+        { "x": 16, "y": 14, "map": "frlg_bourgpalette_labo", "start": { "x": 7, "y": 13 } }
+    ]
+}
