@@ -17,4 +17,4 @@ You can now run `node server.js` and open your browser at `127.0.0.1:8080`.
 
 ## Credits
 
-I used images from Pokemon games, © Nintendo/GameFreaks/whatever.
+I used images from Pokémon games, © Pokémon/Nintendo/GameFreaks/whatever.
