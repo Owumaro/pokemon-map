@@ -1,15 +1,14 @@
-// Libs
+// Node modules
 var express = require('express');
 var app = express();
 var server = require('http').createServer(app);
 var io = require('socket.io').listen(server);
+
+// Playerlist data structure
 var PlayerList = require('./playerlist.js').PlayerList;
+var playerlist = new PlayerList();
 
-server.listen(8080, function() {
-    console.log('Listening on 8080');
-});
-
-// HTTP server settings
+// Express settings
 app.use(express.cookieParser());
 app.use(express.session({secret: 'awesomesalt'}));
 app.use(express.json());
@@ -17,11 +16,16 @@ app.use(express.urlencoded());
 app.use(app.router);
 app.use(express.static(__dirname));
 
+// Express start
+server.listen(8080, function() {
+    console.log('Listening on 8080');
+});
+
+// Express router
 app.get('/server.js', function(req, res) {
     res.send('Nice try.');
 });
 
-// Router
 app.get('/', function(req, res){
     res.render('index.ejs');
 });
@@ -60,10 +64,7 @@ io.enable('browser client etag');
 io.enable('browser client gzip');
 io.set('log level', 1);
 
-// Playerlist data structure
-var playerlist = new PlayerList();
-
-// Websocket
+// Socket.io events
 io.sockets.on('connection', function (socket) {
     console.log('Socket connect');
 
