@@ -102,6 +102,10 @@ header {
     white-space:nowrap;
 }
 
+#playerlist .badge {
+    margin:-3px 0;
+}
+
 #menu .panel-body {
     padding:0;
 }

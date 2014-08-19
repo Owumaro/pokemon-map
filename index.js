@@ -6,8 +6,8 @@ $(function () {
     var character = 'frlg_boy';
 
     $('#nav a').click(function (e) {
-        e.preventDefault()
-        $(this).tab('show')
+        e.preventDefault();
+        $(this).tab('show');
     })
 
     // Init character previews
@@ -73,8 +73,8 @@ $(function () {
 
     /* Submit */
 
-    $('form').submit(function() {
-        event.preventDefault();
+    $('form').submit(function(e) {
+        e.preventDefault();
 
         var usernameInput = $('input#username');
         var username = usernameInput.val();
