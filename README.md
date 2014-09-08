@@ -1,4 +1,6 @@
-![alt tag](https://raw.githubusercontent.com/Owumaro/pokemon-map/master/img/logo.png)
+![logo](https://raw.githubusercontent.com/Owumaro/pokemon-map/master/img/logo.png)
+
+![screenshot](https://cloud.githubusercontent.com/assets/5205295/4188611/39ef0a40-3774-11e4-8aa0-b63b07a60864.png)
 
 ## About
 
