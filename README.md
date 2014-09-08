@@ -1,13 +1,13 @@
 ![logo](https://raw.githubusercontent.com/Owumaro/pokemon-map/master/img/logo.png)
 
-![screenshot](https://cloud.githubusercontent.com/assets/5205295/4188611/39ef0a40-3774-11e4-8aa0-b63b07a60864.png)
-
 ## About
 
 Pokémon map is a very basic experiment (my first) with socket.io. The goal is to have multiple players on a Pokémon map (I choosed the FireRed/LeafGreen Pallet Town), and to be able to see other players moving in real time.
 I also added a chat to provide a way to curse at other people. :smile:
 
 I used `jQuery` and `bootstrap` for the client side program. I know the code is quite messy, I would like to switch to Angular.js but I don't have time right now. Also, Bootstrap style is in contradiction with the "retro pixel" style.
+
+![screenshot](https://cloud.githubusercontent.com/assets/5205295/4188611/39ef0a40-3774-11e4-8aa0-b63b07a60864.png)
 
 ## Instructions
 
