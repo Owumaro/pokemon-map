@@ -1,5 +1,9 @@
 ![logo](https://raw.githubusercontent.com/Owumaro/pokemon-map/master/img/logo.png)
 
+## Demo
+
+You can see a demo hosted at OpenShift [here](http://pkmmap-owumaro.rhcloud.com) (when OpenShift doesn't idle it).
+
 ## About
 
 Pokémon map is a very basic experiment (my first) with socket.io. The goal is to have multiple players on a Pokémon map (I choosed the FireRed/LeafGreen Pallet Town), and to be able to see other players moving in real time.
